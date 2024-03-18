@@ -1,7 +1,8 @@
 # LookupTable
 The tablelookup function for the the "Z-Chart &amp; Loss Function" table 
 
-The task is the implementation of the table lookup of the "Z-Chart & Loss Function" values. This is a part of the project. There is a table in the book, (table PDF attached) where we look for a value of a function. Let's call it f(x)=y. The input is the x, the output will be the y.
+The task is the implementation of the table lookup of the "Z-Chart & Loss Function" values.
+This is a part of the project. There is a table in the book, (for the tab seperated values *.tsv file [click here](https://github.com/AnadoluUniversityCeng/LookupTable/blob/main/zChart.tsv) where we look for a value of a function. Let's call it f(x)=y. The input is the x, the output will be the y.
 
 The ultimate goal is to retrieve/find/calculate the F(Z) and L(Z) values for a given Z value. For example if the input is -3 (i.e. Z=-3) the output will be F(Z)=0.0013 and L(Z)=3.000. If the exact Z value of the input does not exist in the table, we will use the closest Z value in the table. For example if the input is -2.95 (i.e. Z=-2.95) the output will be F(Z=-2.96)=0.0053 and L(Z=2.96)=2.960. Note that the is no entry for Z=-2.95 in the table, thus we will use the closest existing value to -2.95, which is -2.96F(Z) and L(Z) values. In case of a tie; either, you can use/return an arithmetic mean (i.e. average) of F(Z) and L(Z) values, Or break the tie randomly.
 
