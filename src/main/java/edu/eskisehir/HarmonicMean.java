@@ -1,8 +1,7 @@
 package edu.eskisehir;
 
-import com.sun.xml.internal.ws.Closeable;
 
-import javax.xml.ws.WebServiceException;
+import java.io.Closeable;
 
 public class HarmonicMean implements Mean, Closeable,Cloneable {
     @Override
